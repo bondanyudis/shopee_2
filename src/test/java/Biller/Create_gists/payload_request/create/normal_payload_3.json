@@ -1,0 +1,9 @@
+{
+  "description": "#(description)",
+  "public": "#(public)",
+  "files": {
+    "hello_world.txt": {
+      "content": "#(content)"
+    }
+  }
+}

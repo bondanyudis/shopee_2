@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+ 
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%xEx{short}</pattern>
+        </encoder>
+    </appender>
+  
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>target/karate.log</file>
+        <encoder>
+            <pattern>%xEx{short}</pattern>
+        </encoder>
+    </appender>    
+   
+    <logger name="com.intuit" level="DEBUG"/>
+   
+    <root level="DEBUG  ">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </root>
+  
+</configuration>

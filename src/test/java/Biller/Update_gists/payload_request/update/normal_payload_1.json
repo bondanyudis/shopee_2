@@ -1,0 +1,9 @@
+{
+  "description": "Hello World Examples",
+  "public": true,
+  "files": {
+    "hello_world.txt": {
+      "content": "cobaa coba ajaaaa"
+    }
+  }
+}
